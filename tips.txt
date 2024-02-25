@@ -1,0 +1,8 @@
+- Steps for Deployment
+
+0 - Install firebase CLI - npm i -g firebase-tools
+1 - Firebase Login - firebase login
+2 - Initialize Firebase - firebase init
+3 - Deplo command - firebase deploy
+
+URL= https://netflixgpt-89a68.web.app/
