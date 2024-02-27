@@ -34,7 +34,7 @@ const Login = () => {
     updateProfile(user, {
       
     }).then(() => {
-      navigate("/browse")
+      
     }).catch((error) => {
       setErrorMessage(error);
     });
@@ -54,7 +54,6 @@ const Login = () => {
   .then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    navigate("/browse")
     // ...
   })
   .catch((error) => {
